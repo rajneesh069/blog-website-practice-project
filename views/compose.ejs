@@ -1,0 +1,19 @@
+<%- include("./partials/header") %>
+
+    <h1>Compose</h1>
+        <form action="/" method="post">
+
+            <div>
+                <p><strong>Post Title</strong></p>
+                <textarea name="postTitle" rows="1" style="width: 100%;" autofocus></textarea>
+            </div>
+            <div>
+                <p><strong>Post Content</strong></p>
+                <textarea name="postContent" rows="7" style="width: 100%;"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success rounded btn-md">Post</button>
+            </div>
+
+        </form>
+    <%- include("./partials/footer") %>
